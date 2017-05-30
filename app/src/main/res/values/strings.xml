@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Just java</string>
+
+    <!--head text for toppingS [ CHAR LIMIT = 20 ]-->
+    <string name="toppings">TOPPINGS</string>
+
+</resources>
