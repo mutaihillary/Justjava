@@ -3,5 +3,32 @@
 
     <!--head text for toppingS [ CHAR LIMIT = 20 ]-->
     <string name="toppings">TOPPINGS</string>
+    <!--head text for Name [ CHAR LIMIT = 20 ]-->
+    <string name="name">Name</string>
+    <!--head text for Whipped Cream [ CHAR LIMIT = 20 ]-->
+    <string name="whipped_cream">Whipped Cream</string>
+    <!--head text for chocolate [ CHAR LIMIT = 20 ]-->
+    <string name="chocolate">Chocolate</string>
+    <!--head text for quantity [ CHAR LIMIT = 20 ]-->
+    <string name="quantity">Quantity</string>
+    <!--head text for initial quantity [ CHAR LIMIT = 20 ]-->
+    <string name="initial_quantity_value">2</string>
+    <!--head text for Order [ CHAR LIMIT = 20 ]-->
+    <string name="order">Order</string>
+    <!--head text for toppingS [ CHAR LIMIT = 20 ]-->
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <!--head text for toppingS [ CHAR LIMIT = 20 ]-->
+    <string name="order_summary_whipped_cream">Add Whipped Cream?<xliff:g id="addWhippedCream" example="true">%s</xliff:g></string>
+    <!--head text for toppingS [ CHAR LIMIT = 20 ]-->
+    <string name="order_summary_chocolate">Add Chocolate?<xliff:g id="addChocolate" example="true">%s</xliff:g></string>
+    <!--head text for toppingS [ CHAR LIMIT = 20 ]-->
+    <string name="order_summary_quantity">Quantity<xliff:g id="quantity" example="2">%d</xliff:g></string>
+    <string name="order_summary_price">Total: <xliff:g id="price" example="$10">%s</xliff:g></string>
+    <!--head text for toppingS [ CHAR LIMIT = 20 ]-->
+    <string name="thank_you">Thank You!</string>
+    <!--head text for toppingS [ CHAR LIMIT = 20 ]-->
+    <string name="order_summary_email_subject">Just Java Order for<xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <!--head text for toppingS [ CHAR LIMIT = 20 ]-->
+
 
 </resources>
