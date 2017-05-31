@@ -19,6 +19,8 @@ import android.widget.Toast;
 
 import java.text.NumberFormat;
 
+import static android.R.attr.name;
+
 /**
  * This app displays an order form to order coffee.
  */
@@ -82,12 +84,12 @@ public class MainActivity extends AppCompatActivity {
      * @return  text summary
      */
     private String createOrderSummary (String value, int price, boolean addWhippedCream, boolean addChocolate){
-        String priceMessage = "Name: " + value;
-        priceMessage += "\nAdd the whipped cream? " + addWhippedCream;
-        priceMessage += "\nAdd Chocolate? " + addChocolate;
-        priceMessage += "\nQuantity: " + quantity;
-        priceMessage += "\nTotal: $" + price;
-        priceMessage += "\nThank you!";
+        String priceMessage = getString(R.string.order_summary_name,name);
+        priceMessage += "\n" + getString(R.string.order_summary_whipped_cream,addWhippedCream);
+        priceMessage += "\n" + getString(R.string.order_summary_chocolate,addChocolate);
+        priceMessage += "\n" + getString(R.string.order_summary_quantity,quantity);
+        priceMessage += "\n" + getString(R.string.order_summary_price,NumberFormat.getCurrencyInstance().format(price));
+        priceMessage += "\n" + getString(R.string.thank_you);
         return priceMessage;
     }
     /**
